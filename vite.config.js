@@ -11,5 +11,5 @@ export default defineConfig({
       interval: 100, // check every 100ms
     },
     host: true,
-  },
+  }
 })

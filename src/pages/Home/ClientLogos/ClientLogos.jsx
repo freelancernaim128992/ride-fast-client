@@ -15,7 +15,7 @@ const ClientLogos = () => {
 
   return (
     <section className="py-12 bg-gray-50">
-      <div className="text-center mb-8">
+      <div className="text-center mb-10">
         <h2 className="text-2xl md:text-3xl font-bold text-gray-800">
           Trusted by Leading Companies
         </h2>
@@ -32,11 +32,11 @@ const ClientLogos = () => {
         direction="left"
       >
         {logos.map((logo, index) => (
-          <div key={index} className="mx-10 flex items-center justify-center">
+          <div key={index} className="flex items-center justify-center mx-24">
             <img
               src={logo}
               alt={`Client ${index + 1}`}
-              className="w-28 sm:w-32 md:w-40 h-auto object-contain opacity-80 hover:opacity-100 transition duration-300"
+              className="h-6 w-auto object-contain opacity-80 hover:opacity-100 transition duration-300"
             />
           </div>
         ))}
