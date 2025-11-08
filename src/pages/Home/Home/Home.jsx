@@ -6,6 +6,7 @@ import KeyBenefits from '../KeyBenefits/KeyBenefits';
 import BeMarchant from '../BeMarchant/BeMarchant';
 import PackageDeliveryStatus from '../PackageDeliveryStatus/PackageDeliveryStatus';
 import Faq from '../Faq/Faq';
+import Testimonials from '../Testimonials/Testimonials';
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <ClientLogos></ClientLogos>
             <KeyBenefits></KeyBenefits>
             <BeMarchant></BeMarchant>
+            <Testimonials></Testimonials>
             <Faq></Faq>
         </div>
     );
