@@ -15,7 +15,7 @@ const AuthLayout = () => {
                         />
                     </div>
                 </div>
-                <div className='flex-1 p-15'>
+                <div className='flex-1 p-12'>
                     <RideFastLogo />
                     <Outlet />
                 </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
+import { Link } from 'react-router';
 
 const Login = () => {
     const {register, handleSubmit} = useForm();
@@ -23,7 +24,7 @@ const Login = () => {
                 </fieldset>
             </form>
             <div className='mt-2'>
-                <p className='text-xs text-gray-600'>Dont't have any account? Register</p>
+                <p className='text-xs text-gray-600'>Dont't have any account? <Link to="/register" className="link link-hover text-blue-500 font-semibold">Register</Link></p>
             </div>
         </div>
     );
